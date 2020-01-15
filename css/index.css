@@ -1,13 +1,31 @@
 body, html {
+	background: white;
 	height: 100%;
 	margin: 0px 0px 0px 0px;
+}
+
+#bio {
+	font-family: 'Catamaran', sans-serif;
+	margin-left: 10vw;
+	margin-right: 35vw;
+}
+
+#bioHeader {
+	font-family: 'Merienda One', cursive;
+	font-size: 
+}
+
+#bioPic {
+	float: right;
+	margin-right: 5vw;
+	width: 25vw;
 }
 
 #panel1Img {
 	background-image: url("../img/band0.jpg");
 	background-size: 100%;
 	height: 100%;
-	opacity: 0.25;
+	/* opacity: 0.25; */
 	width: 100%;
 }
 
@@ -16,13 +34,15 @@ body, html {
 	height: 100vh;
 	width: 100vw;
 }
-
-#midnight {
-	text-align: left;
+.title {
 	color: white;
+	font-family: 'Mr Dafoe', cursive;
+	font-size: 20vw;
+	display: block;	
+	line-height: 45vh;
 }
 
 #daughter {
 	text-align: right;
-	color: white;
+	margin-right: 50px;
 }
